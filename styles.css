@@ -92,6 +92,10 @@ a:hover{
     bottom: 300px;
 }
 
+.mountain-image{
+    height:400px;
+}
+
 /* Removing cloud in mobile view */
 
 @media(max-width:1028px){
