@@ -108,7 +108,7 @@ a:hover{
   display: none; 
 }
     .mountain-image{
-    position: static;
+    position: relative;
     width: 50%;
 }
 
