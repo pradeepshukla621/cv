@@ -93,7 +93,7 @@ a:hover{
 }
 
 .mountain-image{
-    height:400px;
+    height: 400px;
 }
 
 /* Removing cloud in mobile view */
@@ -108,7 +108,7 @@ a:hover{
   display: none; 
 }
     .mountain-image{
-    height:200px;
+    height: 200px;
 }
 
     
