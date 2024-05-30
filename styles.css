@@ -11,7 +11,7 @@ hr{border-style: none;
     border-width: 6px;
     width: 4%;
     margin: 100px auto;
-    color: #EAF6F6;
+    color: #66BFBF;
 
 }
 
@@ -113,12 +113,11 @@ a:hover{
         
 }
     
+  /* Profile */  
     
-    .profile {
-    width: 80%;       
-}
     .profile-custom{
  padding-bottom: 30px;
+ width: 80%;   
 }
 
     
