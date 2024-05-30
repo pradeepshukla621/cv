@@ -115,9 +115,10 @@ a:hover{
     
     
     .profile {
-    width: 80%;
-    
-        
+    width: 80%;       
+}
+    .profile-custom{
+ padding-bottom: 30px;
 }
 
     
