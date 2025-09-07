@@ -1,12 +1,13 @@
-body{
+body {
     color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    
+
 }
 
-hr{border-style: none;
+hr {
+    border-style: none;
     border-top-style: dotted;
     border-width: 6px;
     width: 4%;
@@ -16,15 +17,15 @@ hr{border-style: none;
 }
 
 h1 {
- margin-top: 50px auto 0 auto;
- font-size: 5.56rem;
- font-family: 'Sacramento', 'Dancing Script',cursive;
- color: #66BFBF;
- font-weight: normal;
+    margin-top: 50px auto 0 auto;
+    font-size: 5.56rem;
+    font-family: 'Sacramento', 'Dancing Script', cursive;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
 h2 {
-    font-family: 'Montserrat' , sans-serif ;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
@@ -33,115 +34,147 @@ h2 {
 }
 
 h3 {
-    font-family: 'Montserrat' , sans-serif ;
+    font-family: 'Montserrat', sans-serif;
     color: #11999E;
 }
 
-p{
+p {
     font-family: cursive;
     line-height: 2;
-    
+
 }
 
-a{
+a {
     color: #11999E;
-    font-family: 'Montserrat' , sans-serif;
-    margin: 10px 20px; 
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #EAF6F6;
 }
 
-.top-container{
+.top-container {
     background-color: #EAF6F6;
     position: relative;
     padding-top: 100px;
 
 }
 
-.middle-container{ 
-   margin: 100px 0;
+.middle-container {
+    margin: 100px 0;
 }
 
-.bottom-container{
-   background-color: #66BFBF;
-   padding: 50px 0 20px;
-   
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+
 
 }
 
-.intro{
+.intro {
     width: 30%;
     margin: auto;
 }
 
-.contact-message{
-    width: 40%;
-    margin: 40px auto 60px;
-    padding: 0 25px;
+.contact-heading {
+    width: 60%;
+    margin: auto;
 }
 
-.top-cloud{
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+    /* padding: 0 25px; */
+}
+
+.top-cloud {
     position: absolute;
     right: 300px;
     top: 50px;
 }
 
-.bottom-cloud{
+.bottom-cloud {
     position: absolute;
     left: 300px;
     bottom: 300px;
 }
 
-.mountain-image{
+.mountain-image {
     height: 400px;
 }
 
-/* Removing cloud in mobile view */
+/* Removing cloud in mobile view (max-width this indicate below 1028px screen) */
 
-@media(max-width:1028px){
-   
-   .top-cloud{
-  display: none; 
+@media(max-width:1028px) {
+
+    .top-cloud {
+        display: none;
+    }
+
+    .bottom-cloud {
+        display: none;
+    }
+
+    .mountain-image {
+        width: 98%;
+
+    }
+
+    .contact-message {
+        width: 60%;
+    }
+
+    .intro {
+        width: 50%;
+    }
+
+    .dropdown-menu {
+        a {
+            font-size: 0.8em;
+        }
+    }
+
+    /* Profile */
+    .profile-custom {
+        width: 80%;
+        padding-bottom: 30px;
+    }
+
 }
 
-.bottom-cloud{
-  display: none; 
-}
-    .mountain-image{
-    width: 98%;
-        
-}
-    
-  /* Profile */  
-    
-    .profile-custom{
- width: 80%;   
- padding-bottom: 30px;
+.dropdown-menu {
+    a {
+        margin: 0 !important;
+        padding-left: 10px;
+    }
 }
 
+.profile-custom {
+    margin: 0 0 50px 0 !important;
+}
 
-.skill-row{
+.skill-row {
     width: 60%;
     margin: 100px auto;
     text-align: left;
     line-height: 2;
 }
 
-.skill1{
+.skill1 {
     width: 25%;
     float: left;
     margin-right: 30px;
 }
 
-.skill2{
+.skill2 {
     width: 25%;
     float: right;
     margin-left: 30px;
 }
 
-.copyright{
+.copyright {
     color: #EAF6F6;
     font-size: 0.75rem;
     padding: 10px 0;
@@ -158,14 +191,14 @@ a:hover{
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: 'Montserrat' , sans-serif ;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
-  
-  .btn-custom:hover {
+}
+
+.btn-custom:hover {
     background: #30E3CB;
     background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
     background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
@@ -173,4 +206,4 @@ a:hover{
     background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
     background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
     text-decoration: none;
-  }
+}
