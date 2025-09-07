@@ -147,7 +147,8 @@ a:hover {
 .dropdown-menu {
     a {
         margin: 0 !important;
-        padding-left: 10px;
+        /* padding-left: 10px; */
+        text-align: center;
     }
 }
 
